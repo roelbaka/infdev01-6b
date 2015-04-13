@@ -1,0 +1,22 @@
+{
+    "name": "roelbaka/php-Json-local-file-storage",
+    "type":"library",
+    "require": {
+        "beberlei/assert": "@stable",
+        "j7mbo/twitter-api-php": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "srsbsns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "srsbsns\\": "tests/"
+        }
+    }
+
+}
