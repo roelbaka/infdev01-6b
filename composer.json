@@ -6,7 +6,8 @@
         "j7mbo/twitter-api-php": "dev-master"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.6.4"
+        "phpunit/phpunit": "~4.6.4",
+        "heroku/heroku-buildpack-php": "*"
     },
     "autoload": {
         "psr-0": {
